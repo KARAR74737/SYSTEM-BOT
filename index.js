@@ -31,12 +31,12 @@ const dateFormat = require('dateformat');
 
 //السورس
 
-const prefix = ":"
-const developers = "706286732320047195"
+const prefix = "$"
+const developers = "764157419416584193"
 
 //كود التيكت
 
-const category = "749260654556348457";//تعديل مهم ايدي الكاتيجوري
+const category = "722189456135946361";//تعديل مهم ايدي الكاتيجوري
 let mtickets = true;
 let tchannels = [];
 let current = 0;
@@ -55,7 +55,7 @@ client.on("message", async message => {
     );
     await message.channel.send(embed);
   } else if (args[0].toLowerCase() === `${prefix}new`) {
-        if (message.channel.id !== "745287486040965230")//تعديل مهم ايدي روم انشاء التذاكر
+        if (message.channel.id !== "767862710082732074")//تعديل مهم ايدي روم انشاء التذاكر
       return message.reply(
         `**YOU CANT OPEN TICKET HERE PLEAS MOVE TO <#745287486040965230>**`
       );
@@ -115,7 +115,7 @@ THANKS FOR CONTACTING US PLEASE WAIT FOR THE SUPPORT TEAM
        ${openReason}`)
         .setThumbnail(`https://cdn.discordapp.com/attachments/761375497292480532/762631308412452864/ticket_1.png`)        
         .setFooter("MADE BY Тигр#0080")
-            c.send(`<@&72148389815189508>`);//تعديل مهم ايدي رتبة السوبورت
+            c.send(`<@&722396729504432210 >`);//تعديل مهم ايدي رتبة السوبورت
       c.send(`HERE IS YOUR TICKET ${message.author}`);
       c.send(embed); 
     });
